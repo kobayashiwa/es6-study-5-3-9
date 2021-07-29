@@ -20,14 +20,15 @@ console.log(text);
 Hello World
 ```
 
-### データ定義部分の分割
-下の例のように、「script.js」でDogインスタンスを定義している部分を、新しく作る「dogData.js」に移動する。
+### データ定義部分の分割（Dogインスタンスのエクスポート）
+「dogData.js」はDogクラスをインポートし、Dogインスタンスである定数dogをエクスポート。
+「script.js」は定数dogをインポートするようにする。
 
 ▼ ディレクトリ／ファイル構成
 ```
 【src】
-・script.js（記述の一部を新規作成のdogData.jsに移動）
-・dataDog.js（新規作成してscript.jsから記述を移動）
+・script.js
+・dataDog.js（新規作成）
 ・dog.js
 ・animal.js
 ```
