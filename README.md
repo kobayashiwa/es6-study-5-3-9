@@ -15,3 +15,7 @@ export default text;　/* 「export default 定数名」とする */
 import text "./sample01" /* 「import 定数名 from "./インポートするファイル名"」とする */
 console.log(text);
 ```
+▼ コンソールでの出力結果
+```
+Hello World
+```
