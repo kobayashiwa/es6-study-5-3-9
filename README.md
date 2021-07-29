@@ -5,8 +5,13 @@ JavaScript 学習コース V > ファイルを分割しよう > 3.値のエク�
 ファイルの分割で、エクスポートできるのはクラスだけではない。
 文字列や数値や関数など、どんな値でもエクスポートができる。
 
-▼ エクスポートする場合（sample.js）
+▼ エクスポート側（sample01.js）
 ```
 const text = "Hello World";
 export default text;　/* 「export default 定数名」とする */
+```
+▼ インポート側（sample02.js）
+```
+import text "./sample01" /* 「import 定数名 from "./インポートするファイル名"」とする */
+console.log(text);
 ```
