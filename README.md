@@ -19,3 +19,6 @@ console.log(text);
 ```
 Hello World
 ```
+
+### データ定義部分の分割
+下の例のように、「script.js」でDogインスタンスを定義している部分を、新しく作る「dogData.js」に移動する。
