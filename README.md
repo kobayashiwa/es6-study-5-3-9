@@ -51,3 +51,6 @@ export default dog;
 import dog from "./dogData"
 dog.info();
 ```
+
+## コーディングトレーニング
+「GA technologies」のレイアウト構造をレスポンシブで写経する。
