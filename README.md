@@ -46,3 +46,8 @@ import dog from "./dog"
 const dog = new Dog("レオ", 4, "チワワ");
 export default dog;
 ```
+▼ script.js
+```
+import dog from "./dogData"
+dog.info();
+```
