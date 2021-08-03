@@ -54,3 +54,8 @@ dog.info();
 
 ## コーディングトレーニング
 「GA technologies」のレイアウト構造をレスポンシブで写経する。
+
+#### サイト構造
+- header > logo - nav/toggle
+- main > section（sitetop-hero） - section（sitetop-news） - section（sitetop-aboutus） - section（sitetop-careers） - section（siteinfo） - section（siteinfo）
+- footer
