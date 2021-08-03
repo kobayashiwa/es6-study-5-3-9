@@ -39,3 +39,10 @@ import dog from "./dog"
 const dog = new Dog("レオ", 4, "チワワ");
 dog.info();
 ```
+#### 変更後
+▼ dogData.js
+```
+import dog from "./dog"
+const dog = new Dog("レオ", 4, "チワワ");
+export default dog;
+```
