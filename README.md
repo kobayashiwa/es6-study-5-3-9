@@ -61,3 +61,8 @@ dog.info();
 - main > section（sitetop-hero） - section（sitetop-news） - section（sitetop-aboutus） - section（sitetop-careers） - section（siteinfo） - section（siteinfo）
 - footer
 ```
+
+#### ブレイクポイント
+- desktop（1024px ↑）
+- tablet（1023px ↓）
+- smartDevice（767px ↓）
