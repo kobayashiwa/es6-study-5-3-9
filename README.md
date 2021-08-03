@@ -32,3 +32,10 @@ Hello World
 ・dog.js
 ・animal.js
 ```
+#### 変更前
+▼ script.js
+```
+import dog from "./dog"
+const dog = new Dog("レオ", 4, "チワワ");
+dog.info();
+```
