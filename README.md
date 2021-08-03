@@ -63,6 +63,8 @@ dog.info();
 ```
 
 #### ブレイクポイント
+```
 - desktop（1024px ↑）
 - tablet（1023px ↓）
 - smartDevice（767px ↓）
+```
