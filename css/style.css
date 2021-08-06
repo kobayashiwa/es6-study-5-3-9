@@ -308,42 +308,13 @@ main {
 	width: 100%;
 	background: hsl(214, 97%, 23%, 0.5);
 }
-.p-top__mv {
+.sitetop-hero {
 	width: 100%;
-	height: 50vw;
+	height: 60vw;
 	padding: 120px 0 0 0;
 	background: hsl(214, 97%, 23%, 0.1);
 }
-.p-top__about {
-	width: 100%;
-	height: 120vw;
-	background: hsl(214, 97%, 23%, 0.2);
-}
-.p-top__category {
-	width: 100%;
-	height: 10vw;
-	background: hsl(214, 97%, 23%, 0.3);
-}
-.p-top__advantage {
-	width: 100%;
-	height: 70vw;
-	background: hsl(214, 97%, 23%, 0.4);
-}
-.p-top__contents {
-	width: 100%;
-	height: 30vw;
-	background: hsl(214, 97%, 23%, 0.5);
-}
-.p-top__value {
-	width: 100%;
-	height: 150vw;
-	background: hsl(214, 97%, 23%, 0.6);
-}
-.p-top__stayful {
-	width: 100%;
-	height: 60vw;
-	background: hsl(214, 97%, 23%, 0.7);
-}
+
 
 /** footer **/
 footer {
