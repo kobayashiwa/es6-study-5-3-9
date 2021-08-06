@@ -319,6 +319,11 @@ main {
 	height: 190vw;
 	background: hsl(214, 97%, 23%, 0.2);
 }
+.sitetop-aboutus {
+	width: 100%;
+	height: 50vw;
+	background: hsl(214, 97%, 23%, 0.3);
+}
 
 
 /** footer **/
