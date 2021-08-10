@@ -52,11 +52,15 @@ ul, li {
 	height: 55px;
 }
 .p-alert_header {
+	position: relative;
 	width: 20%;
 	background: #6D6D6D;
 }
 .p-alert_header p {
 	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	display: inline-block;
 	font-size: 14px;
 	padding-left: 25px;
