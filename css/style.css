@@ -55,6 +55,9 @@ ul, li {
 	width: 20%;
 	background: #6D6D6D;
 }
+.p-alert_header p {
+	font-size: 14px;
+}
 .p-alert_body {
 	width: 80%;
 	background: #F4F6F9;
