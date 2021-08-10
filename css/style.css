@@ -48,10 +48,12 @@ ul, li {
 
 /** header **/
 #alert {
-	background: #555;
 }
 .p-alert_header {
 	background: #666;
+}
+.p-alert_body {
+	background: #777;
 }
 
 
