@@ -63,6 +63,7 @@ ul, li {
 	background: #F4F6F9;
 }
 .p-alert_body p {
+	font-size: 12px;
 	color: #1B1919;
 }
 
