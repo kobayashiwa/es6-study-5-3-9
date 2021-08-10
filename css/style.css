@@ -47,7 +47,9 @@ ul, li {
 }
 
 /** header **/
-
+#alert {
+	background: #555;
+}
 
 
 
