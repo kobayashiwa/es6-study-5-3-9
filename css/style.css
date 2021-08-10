@@ -50,6 +50,9 @@ ul, li {
 #alert {
 	background: #555;
 }
+.p-alert_header {
+	background: #666;
+}
 
 
 
