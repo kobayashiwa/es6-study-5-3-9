@@ -62,6 +62,9 @@ ul, li {
 	width: 80%;
 	background: #F4F6F9;
 }
+.p-alert_body p {
+	color: #1B1919;
+}
 
 
 
