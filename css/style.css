@@ -56,7 +56,20 @@ ul, li {
 	background: #6D6D6D;
 }
 .p-alert_header p {
+	position: relative;
+	display: inline-block;
 	font-size: 14px;
+	padding-left: 25px;
+}
+.p-alert_header p::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	top: 3px;
+	left: 0px;
+	background-image: url(../img/icon-alert.svg);
 }
 .p-alert_body {
 	width: 80%;
