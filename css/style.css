@@ -155,12 +155,7 @@ ul, li {
 
 
 
-.sns span{
-	position: relative;
-	color: #000;
-	font-weight: 500;
-	font-size: 13px;
-}
+
 .sns span::after{
 	content: '';
 	display: block;
