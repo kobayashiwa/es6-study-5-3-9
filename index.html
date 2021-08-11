@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <div id="alert" class="flex">
+        <div class="alert_wrap flex">
             <div class="p-alert_header"><p>重要なお知らせ</p></div>
             <div class="p-alert_body"><p>テレワーク体制への移行に伴う、お問い合わせ窓口について</p></div>
         </div>
@@ -68,6 +68,25 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script>
+        // スクロール時に実行する
+        $(window).scroll(function(){
+            // alert_wrapの高さを取得する
+            let alertHeight = $(".alert_wrap").height();
+            let topHeaderHeight = $(".top-header").height();
+            // スクロール量の取得
+            let scroll = $(this).scrollTop();
+            // スクロール量がalert_wrapの高さより大きければclassを付与する
+            if ( scroll > alertHeight ){
+                $(".top-header").addClass("bisible");
+            }
+            // スクロール量がtop-headerの高さより小さければ特定のclassを消す
+            else {
+                $(".top-header").removeClass("bisible");
+            }
+        });
+    </script>
 
     <script>
 
