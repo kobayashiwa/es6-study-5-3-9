@@ -117,10 +117,10 @@ ul, li {
 	position: relative;
 }
 .head-logo {
-	position: relative;
+	position: absolute;
 	width: 216px;
 	top: 50%;
-	left: 0;
+	left: 36px;
 	transform: translate(0, -50%);
 	transition: all .2s;
 }
@@ -128,10 +128,26 @@ ul, li {
 	width: 100%;
 }
 nav {
-	background: #fff;
+	height: 100%;
+	transition: all .5s;
 }
-.toggle .toggle span {
+nav ul {
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+nav ul li {
+	height: 100%;
+	padding-left: 30px;
+}
+nav ul li a {
 	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 52px 0 0 0;
+	height: 100%;
+	color: #fff;
+	transition: all .5s;
 }
 .toggle {
 	position: fixed;
@@ -158,9 +174,6 @@ nav {
 
 
 
-.sns.active span::after{
-	background-image: url(../img/icon-sns_white.svg);
-}
 .sns ul {
 	position: absolute;
 	top: 3px;
