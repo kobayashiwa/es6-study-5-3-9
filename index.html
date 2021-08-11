@@ -11,38 +11,41 @@
     </head>
 
     <body>
-        <div class="alert_wrap flex">
-            <div class="p-alert_header"><p>重要なお知らせ</p></div>
-            <div class="p-alert_body"><p>テレワーク体制への移行に伴う、お問い合わせ窓口について</p></div>
-        </div>
-
-        <header class="top-header">
-            <div class="in">
-                <div class="head-logo top-logo"><img src="img/logo.svg"></div>
-                <nav>
-                    <ul>
-                        <li><a href="#">会社情報</a></li>
-                        <li><a href="#">ニュース / イベント</a></li>
-                        <li><a href="#">サービス</a></li>
-                        <li><a href="#">サステナビリティ</a></li>
-                        <li><a href="#">IR</a></li>
-                        <li><a href="#">採用</a></li>
-                        <li><a href="#">GA MAG.</a></li>
-                        <li><a href="#">アクセス</a></li>
-                        <li><a href="#">LANGUAGE</a></li>
-                    </ul>
-                </nav>
-                <div class="toggle">
-                    <p class="menu">MENU</p>
-                    <p class="close">CLOSE</p>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+        <div class="head-wrap">
+            <div class="alert_wrap flex">
+                <div class="p-alert_header"><p>重要なお知らせ</p></div>
+                <div class="p-alert_body"><p>テレワーク体制への移行に伴う、お問い合わせ窓口について</p></div>
             </div>
-        </header>
+            <header class="top-header">
+                <div class="in">
+                    <div class="head-logo top-logo"><img src="img/logo.svg"></div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">会社情報</a></li>
+                            <li><a href="#">ニュース / イベント</a></li>
+                            <li><a href="#">サービス</a></li>
+                            <li><a href="#">サステナビリティ</a></li>
+                            <li><a href="#">IR</a></li>
+                            <li><a href="#">採用</a></li>
+                            <li><a href="#">GA MAG.</a></li>
+                            <li><a href="#">アクセス</a></li>
+                            <li><a href="#">LANGUAGE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        
 
         
+
+        <div class="toggle">
+            <p class="menu">MENU</p>
+            <p class="close">CLOSE</p>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
         <div class="toggle-menu">
             <nav>
@@ -55,6 +58,10 @@
                 </ul>
             </nav>
         </div>
+
+        
+
+        
 
         <main>
             <section class="sitetop-hero">sitetop-hero</section>
@@ -69,25 +76,6 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-
-    <script>
-        // スクロール時に実行する
-        $(window).scroll(function(){
-            // alert_wrapの高さを取得する
-            let alertHeight = $(".alert_wrap").height();
-            let topHeaderHeight = $(".top-header").height();
-            // スクロール量の取得
-            let scroll = $(this).scrollTop();
-            // スクロール量がalert_wrapの高さより大きければclassを付与する
-            if ( scroll > alertHeight ){
-                $(".top-header").addClass("bisible");
-            }
-            // スクロール量がtop-headerの高さより小さければ特定のclassを消す
-            else {
-                $(".top-header").removeClass("bisible");
-            }
-        });
-    </script>
 
     <script>
 
