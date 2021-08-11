@@ -145,7 +145,7 @@ nav ul li {
 }
 nav ul li a {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 600;
 	padding: 52px 0 0 0;
 	height: 100%;
@@ -174,12 +174,6 @@ nav ul li a {
 
 
 
-
-
-.sns ul li {
-	width: 22px;
-	margin-right: 8px;
-}
 .sns ul li img {
 	width: 100%;
 }
