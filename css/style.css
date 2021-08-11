@@ -117,27 +117,30 @@ ul, li {
 	padding: 0 0 0 36px;
 	position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
 .head-logo {
-	position: absolute;
-	width: 69px;
-	height: 15px;
-	top: 48px;
+	position: relative;
+	width: 216px;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
 	transition: all .2s;
 }
 .head-logo img {
 	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sns {
 	position: fixed;
 	top: 43px;
