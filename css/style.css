@@ -130,6 +130,7 @@ ul, li {
 nav {
 	height: 100%;
 	transition: all .5s;
+	background: #232323;
 }
 nav ul {
 	justify-content: flex-end;
@@ -138,7 +139,8 @@ nav ul {
 }
 nav ul li {
 	height: 100%;
-	padding-left: 30px;
+	padding-left: 24px;
+	background: #333;
 }
 nav ul li a {
 	display: inline-block;
@@ -174,13 +176,6 @@ nav ul li a {
 
 
 
-.sns ul {
-	position: absolute;
-	top: 3px;
-	right: -20px;
-	width: 90px;
-	display: none;
-}
 .sns.active ul {
 	display: flex;
 }
