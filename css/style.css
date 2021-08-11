@@ -132,12 +132,12 @@ ul, li {
 }
 .toggle {
 	position: fixed;
-	top: 52px;
-	right: 50px;
-	width: 11px;
-	height: 11px;
+	top: 55px;
+	right: 0;
+	width: 79px;
+	height: 79px;
 	z-index: 3;
-	background: #fff;
+	background: #4A66A9;
 	border: none;
 	appearance: none;
 	cursor: pointer;
@@ -155,12 +155,6 @@ ul, li {
 
 
 
-.sns {
-	position: fixed;
-	top: 43px;
-	right: 168px;
-	z-index: 3;
-}
 .sns span{
 	position: relative;
 	color: #000;
