@@ -127,6 +127,9 @@ ul, li {
 .head-logo img {
 	width: 100%;
 }
+nav {
+	background: #fff;
+}
 .toggle .toggle span {
 	display: inline-block;
 }
@@ -155,17 +158,6 @@ ul, li {
 
 
 
-
-.sns span::after{
-	content: '';
-	display: block;
-	position: absolute;
-	width: 11px;
-	height: 11px;
-	top: 3px;
-	left: 32px;
-	background-image: url(../img/icon-sns.svg);
-}
 .sns.active span::after{
 	background-image: url(../img/icon-sns_white.svg);
 }
