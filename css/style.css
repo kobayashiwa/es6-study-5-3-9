@@ -192,7 +192,7 @@ nav ul li a {
 }
 .toggle::before, .toggle::after, .toggle span {
 	position: absolute;
-	width: 35%;
+	width: 27px;
 	height: 2px;
 	background: #fff;
 	transition: .2s;
@@ -212,24 +212,21 @@ nav ul li a {
 	transition-delay: .2s;
 }
 .toggle span:nth-of-type(-n+3) {
-	left: 0;
+	left: 26px;
 	transform-origin: 100% 0;
 	transition-delay: .5s;
 }
 .toggle span:nth-of-type(1) {
 	top: 20px;
-	left: 50%;
-	transform: translate(-50%, 0);
+
 }
 .toggle span:nth-of-type(2) {
 	top: 28px;
-	left: 50%;
-	transform: translate(-50%, 0);
+
 }
 .toggle span:nth-of-type(3) {
 	top: 36px;
-	left: 50%;
-	transform: translate(-50%, 0);
+
 }
 .toggle.active::before {
 	transform: rotate(45deg) scaleX(1);
@@ -245,37 +242,22 @@ nav ul li a {
 .toggle.active span:nth-of-type(1) {
 	transition-delay: .1s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.toggle.active span:nth-of-type(-n+3) {
-	transform: scaleX(0);
-	transition-delay: 0s;
+.toggle.active span:nth-of-type(2) {
+	transition-delay: .25s;
 }
+.toggle.active span:nth-of-type(3) {
+	transition-delay: .4s;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
