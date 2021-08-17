@@ -164,27 +164,32 @@ nav ul li a {
 	appearance: none;
 	cursor: pointer;
   }
-
-
-
-
-
-
-
-
-
-.toggle p {
+  .toggle p {
 	color: #fff;
 	font-size: 11px;
 	font-weight: 500;
 	position: absolute;
 	top: -6px;
-	right: 20px;
+	left: 50%;
+	transform: translate(-50%, 0);
 	transition-delay: 1s;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+.toggle:focus:not(:focus-visible) {
+	outline: none;
+}
 
 
 
@@ -220,9 +225,13 @@ nav ul li a {
 .toggle.active p::before{
 	background-color: #fff;
 }
-.toggle:focus:not(:focus-visible) {
-	outline: none;
-}
+
+
+
+
+
+
+
 .toggle::before, .toggle::after {
   content: '';
 }
