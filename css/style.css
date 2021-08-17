@@ -201,6 +201,13 @@ nav ul li a {
   border-radius: 4px;
   transition: .2s;
 }
+.toggle::before {
+	top: 3px;
+	left: 8px;
+	transform-origin: 0 0;
+	transform: rotate(45deg) scaleX(0);
+	transition-delay: 0s;
+}
 
 
 
@@ -222,17 +229,6 @@ nav ul li a {
 	display: block;	
 	color: #fff;
 }
-.toggle p::before {
-	content: '';
-	display: block;
-	position: absolute;
-	width: 1px;
-	height: 11px;
-	top: 6px;
-	right: 64px;
-	background-color: #000;
-	transition-delay: .2s;
-}
 
 
 
@@ -242,13 +238,8 @@ nav ul li a {
 
 
 
-.toggle::before {
-	top: 1px;
-	left: 2px;
-	transform-origin: 0 0;
-	transform: rotate(45deg) scaleX(0);
-	transition-delay: 0s;
-}
+
+
 .toggle::after {
 	top: 1px;
 	right: 2px;
