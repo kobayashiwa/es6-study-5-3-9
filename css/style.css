@@ -164,19 +164,8 @@ nav ul li a {
 	appearance: none;
 	cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
 .toggle p {
-	color: #000;
+	color: #fff;
 	font-size: 13px;
 	font-weight: 500;
 	position: absolute;
@@ -184,6 +173,18 @@ nav ul li a {
 	right: 20px;
 	transition-delay: 1s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .toggle.active .menu{
 	display: none;	
@@ -316,9 +317,6 @@ nav ul li a {
 	font-size: 16px;
 }
 @media screen and (max-width: 800px) {
-	.sns {
-		display: none;
-	}
 	.toggle p::before {
 		display: none;
 	}
