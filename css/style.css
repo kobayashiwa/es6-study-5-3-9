@@ -163,16 +163,26 @@ nav ul li a {
 	border: none;
 	appearance: none;
 	cursor: pointer;
-}
+  }
+
+
+
+
+
+
+
+
+
 .toggle p {
 	color: #fff;
-	font-size: 13px;
+	font-size: 11px;
 	font-weight: 500;
 	position: absolute;
 	top: -6px;
 	right: 20px;
 	transition-delay: 1s;
 }
+
 
 
 
