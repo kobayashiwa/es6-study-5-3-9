@@ -225,46 +225,45 @@ nav ul li a {
 .toggle span:nth-of-type(3) {
 	bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.toggle span:nth-of-type(2) {
-	top: 5px;
-	left: 0;
-	transform-origin: 50% 50%;
-	transition-delay: .5s;
+.toggle.active::before {
+	transform: rotate(45deg) scaleX(1);
+	transition-delay: .6s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .toggle span:nth-of-type(3) {
 	right: 0;
 	bottom: 0;
