@@ -199,14 +199,14 @@ nav ul li a {
 }
 .toggle::before {
 	top: 16px;
-	left: 8px;
+	left: 30px;
 	transform-origin: 0 0;
 	transform: rotate(45deg) scaleX(0);
 	transition-delay: 0s;
 }
 .toggle::after {
 	top: 16px;
-	right: 9px;
+	right: 30px;
 	transform-origin: 100% 0;
 	transform: rotate(-45deg) scaleX(0);
 	transition-delay: .2s;
@@ -217,59 +217,54 @@ nav ul li a {
 	transition-delay: .5s;
 }
 .toggle span:nth-of-type(1) {
-	top: 0;
-}
-.toggle span:nth-of-type(2) {
 	top: 20px;
 }
+.toggle span:nth-of-type(2) {
+	top: 28px;
+}
 .toggle span:nth-of-type(3) {
-	bottom: 0;
+	top: 36px;
 }
 .toggle.active::before {
 	transform: rotate(45deg) scaleX(1);
 	transition-delay: .6s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.toggle span:nth-of-type(3) {
-	right: 0;
-	bottom: 0;
-	transform-origin: 100% 0;
-	transition-delay: .5s;
+.toggle.active::after {
+	transform: rotate(-45deg) scaleX(1);
+	transition-delay: .8s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .toggle.active::before {
 	transform: rotate(45deg) scaleX(1);
 	transition-delay: .3s;
