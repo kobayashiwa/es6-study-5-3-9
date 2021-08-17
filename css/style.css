@@ -198,14 +198,14 @@ nav ul li a {
 	transition: .2s;
 }
 .toggle::before {
-	top: 3px;
+	top: 16px;
 	left: 8px;
 	transform-origin: 0 0;
 	transform: rotate(45deg) scaleX(0);
 	transition-delay: 0s;
 }
 .toggle::after {
-	top: 3px;
+	top: 16px;
 	right: 9px;
 	transform-origin: 100% 0;
 	transform: rotate(-45deg) scaleX(0);
@@ -222,47 +222,43 @@ nav ul li a {
 .toggle span:nth-of-type(2) {
 	top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.toggle span:nth-of-type(1) {
-	transform-origin: 0 0;
-	transition-delay: .5s;
+.toggle span:nth-of-type(3) {
+	bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .toggle span:nth-of-type(2) {
 	top: 5px;
 	left: 0;
