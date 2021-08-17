@@ -191,12 +191,11 @@ nav ul li a {
 	content: '';
 }
 .toggle::before, .toggle::after, .toggle span {
-  position: absolute;
-  width: 35%;
-  height: 2px;
-  background: #fff;
-  border-radius: 4px;
-  transition: .2s;
+	position: absolute;
+	width: 35%;
+	height: 2px;
+	background: #fff;
+	transition: .2s;
 }
 .toggle::before {
 	top: 3px;
@@ -219,6 +218,9 @@ nav ul li a {
 }
 .toggle span:nth-of-type(1) {
 	top: 0;
+}
+.toggle span:nth-of-type(2) {
+	top: 20px;
 }
 
 
