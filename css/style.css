@@ -174,6 +174,16 @@ nav ul li a {
 	transform: translate(-50%, 0);
 	transition-delay: 1s;
 }
+.toggle.active .menu{
+	display: none;	
+}
+.toggle .close {
+	display: none;	
+}
+.toggle.active .close{
+	display: block;	
+	color: #fff;
+}
 
 
 
@@ -215,27 +225,23 @@ nav ul li a {
 	transform: rotate(-45deg) scaleX(0);
 	transition-delay: .2s;
 }
-
-
-
-
-
-
-
-
-
-
-
-.toggle.active .menu{
-	display: none;	
+.toggle span:nth-of-type(-n+3) {
+	left: 0;
+	transform-origin: 100% 0;
+	transition-delay: .5s;
 }
-.toggle .close {
-	display: none;	
-}
-.toggle.active .close{
-	display: block;	
-	color: #fff;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -248,7 +254,6 @@ nav ul li a {
 
 
 .toggle span:nth-of-type(1) {
-	top: 0;
 	left: 0;
 	transform-origin: 0 0;
 	transition-delay: .5s;
