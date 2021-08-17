@@ -195,7 +195,7 @@ nav ul li a {
 }
 .toggle::before, .toggle::after, .toggle span {
   position: absolute;
-  width: 100%;
+  width: 35%;
   height: 4px;
   background: #fff;
   border-radius: 4px;
@@ -207,6 +207,13 @@ nav ul li a {
 	transform-origin: 0 0;
 	transform: rotate(45deg) scaleX(0);
 	transition-delay: 0s;
+}
+.toggle::after {
+	top: 3px;
+	right: 9px;
+	transform-origin: 100% 0;
+	transform: rotate(-45deg) scaleX(0);
+	transition-delay: .2s;
 }
 
 
@@ -240,13 +247,6 @@ nav ul li a {
 
 
 
-.toggle::after {
-	top: 1px;
-	right: 2px;
-	transform-origin: 100% 0;
-	transform: rotate(-45deg) scaleX(0);
-	transition-delay: .2s;
-}
 .toggle span:nth-of-type(1) {
 	top: 0;
 	left: 0;
