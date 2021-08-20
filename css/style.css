@@ -130,7 +130,6 @@ ul, li {
 nav {
 	height: 100%;
 	transition: all .5s;
-	background: #232323;
 	padding-right: 95px;
 }
 nav ul {
@@ -248,27 +247,28 @@ nav ul li a {
 .toggle.active span:nth-of-type(3) {
 	transition-delay: .4s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .toggle-menu {
 	display: none;
 	position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .toggle-menu nav {
 	display: block;
 	position: absolute;
