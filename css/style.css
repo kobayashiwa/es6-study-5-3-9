@@ -153,6 +153,7 @@ nav ul li a {
 }
 nav ul li.sub a {
 	display: inline-block;
+	position: relative;
 	font-size: 10px;
 	letter-spacing: 0.2rem;
 	font-weight: 600;
@@ -160,6 +161,17 @@ nav ul li.sub a {
 	height: 100%;
 	color: #1B1919;
 	transition: all .5s;
+}
+nav ul li.access a::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	left: 0px;
+	transform: translate(0, -50%);
+	background-image: url(../img/icon-access.svg);
 }
 .toggle {
 	position: fixed;
