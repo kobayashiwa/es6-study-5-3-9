@@ -173,6 +173,17 @@ nav ul li.access a::after {
 	transform: translate(0, -50%);
 	background-image: url(../img/icon-access.svg);
 }
+nav ul li.lang a::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	left: 0px;
+	transform: translate(0, -50%);
+	background-image: url(../img/icon-lang.svg);
+}
 .toggle {
 	position: fixed;
 	top: 55px;
