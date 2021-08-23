@@ -107,7 +107,7 @@ ul, li {
 .top-header {
 	width: 100%;
 	height: 79px;
-	background: #131313;
+	background: #fff;
 	transition: all .2s;
 }
 .in {
