@@ -258,7 +258,6 @@ nav ul li.lang a::after {
 }
 .toggle span:nth-of-type(3) {
 	top: 36px;
-
 }
 .toggle.active::before {
 	transform: rotate(45deg) scaleX(1);
@@ -288,6 +287,9 @@ nav ul li.lang a::after {
 	width: 100%;
 	height: 79px;
 	transition: all .2s;
+}
+.sitemap-header nav ul li.sub a {
+	color: #fff;
 }
 
 
