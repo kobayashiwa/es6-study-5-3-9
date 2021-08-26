@@ -291,6 +291,12 @@ nav ul li.lang a::after {
 .sitemap-header nav ul li.sub a {
 	color: #fff;
 }
+.sitemap-header nav ul li.access a::after {
+	background-image: url(../img/icon-access-white.svg);
+}
+.sitemap-header nav ul li.lang a::after {
+	background-image: url(../img/icon-lang.svg);
+}
 
 
 
