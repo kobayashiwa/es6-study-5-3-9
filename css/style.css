@@ -283,54 +283,6 @@ nav ul li.lang a::after {
 	display: none;
 	position: relative;
 }
-.sitemap-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 79px;
-	transition: all .2s;
-}
-.sitemap-header nav ul li.sub a {
-	color: #fff;
-}
-.sitemap-header nav ul li.access a::after {
-	background-image: url(../img/icon-access-white.svg);
-}
-.sitemap-header nav ul li.lang a::after {
-	background-image: url(../img/icon-lang-white.svg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .toggle-menu {
 	display: block;
 	position: fixed;
@@ -348,6 +300,61 @@ nav ul li.lang a::after {
 .toggle-menu.active {
 	transform: translateX(0%);
 }
+.sitemap-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 79px;
+	transition: all .2s;
+}
+.sitemap-header nav ul li.sub a {
+	color: #fff;
+}
+.sitemap-header nav ul li.access a::after {
+	background-image: url(../img/icon-access-white.svg);
+}
+.sitemap-header nav ul li.lang a::after {
+	background-image: url(../img/icon-lang-white.svg);
+}
+.sitemap-body {
+	background: #121212;
+}
+.sitemap-footer {
+	background: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
 	.toggle p::before {
