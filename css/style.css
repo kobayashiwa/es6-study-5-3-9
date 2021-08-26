@@ -284,6 +284,22 @@ nav ul li.lang a::after {
 	display: none;
 	position: relative;
 }
+.sitemap-header {
+	width: 100%;
+	height: 79px;
+	transition: all .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
 .toggle-menu nav {
 	display: block;
 	position: absolute;
