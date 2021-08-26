@@ -319,6 +319,7 @@ nav ul li.lang a::after {
 }
 .sitemap-body {
 	background: #121212;
+	padding: 200px 5vw 5vw 5vw;
 }
 .sitemap-footer {
 	background: #222;
