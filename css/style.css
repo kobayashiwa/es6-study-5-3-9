@@ -300,17 +300,6 @@ nav ul li.lang a::after {
 
 
 
-.toggle-menu nav {
-	display: block;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translate(0, -50%);
-}
-.toggle-menu nav ul {
-	height: auto;
-	margin: 0 auto;
-}
 
 
 
@@ -331,10 +320,6 @@ nav ul li.lang a::after {
 
 
 
-.toggle-menu nav ul li {
-	flex-direction: column;
-	width: 100%;
-}
 .toggle-menu {
 	display: block;
 	position: fixed;
@@ -352,17 +337,7 @@ nav ul li.lang a::after {
 .toggle-menu.active {
 	transform: translateX(0%);
 }
-.toggle-menu nav ul li {
-	margin: 0;
-}
-.toggle-menu nav ul li a  {
-	color: #fff;
-	text-align: right;
-	padding: 16px 50px 16px 16px;
-	display: inline-block;
-	width: 100%;
-	font-size: 16px;
-}
+
 @media screen and (max-width: 800px) {
 	.toggle p::before {
 		display: none;
