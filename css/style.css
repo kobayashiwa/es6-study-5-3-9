@@ -320,6 +320,9 @@ nav ul li.lang a::after {
 .sitemap-body {
 	padding: 200px 5vw 5vw 5vw;
 }
+.sitemap-col {
+	background: #222;
+}
 .sitemap-footer {
 	padding: 5vw;
 }
