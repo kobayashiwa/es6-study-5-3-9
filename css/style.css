@@ -318,11 +318,9 @@ nav ul li.lang a::after {
 	background-image: url(../img/icon-lang-white.svg);
 }
 .sitemap-body {
-	background: #121212;
 	padding: 200px 5vw 5vw 5vw;
 }
 .sitemap-footer {
-	background: #222;
 	padding: 5vw;
 }
 
