@@ -323,6 +323,7 @@ nav ul li.lang a::after {
 .sitemap-col {
 	background: #222;
 	width: 25%;
+	padding-right: 48px;
 }
 .sitemap-footer {
 	padding: 5vw;
