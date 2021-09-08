@@ -330,6 +330,9 @@ nav ul li.lang a::after {
 .sitemap-heading {
 	background: #666;
 }
+.heading-sub {
+	background: #777;
+}
 .sitemap-footer {
 	padding: 5vw;
 }
