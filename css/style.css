@@ -342,6 +342,9 @@ nav ul li.lang a::after {
 .-top {
 	background: #505050;
 }
+.sitemap_sublist {
+	background: #606060;
+}
 .sitemap-footer {
 	padding: 5vw;
 }
