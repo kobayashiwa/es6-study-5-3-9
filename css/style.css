@@ -325,9 +325,8 @@ nav ul li.lang a::after {
 	padding-right: 48px;
 }
 .sitemap-section {
-	background: #555;
-	margin-top: 3.2vw;
-	padding-top: 3.2vw;
+	margin-top: 3vw;
+	padding-top: 3vw;
 	border-top: 1px solid #6e85ba;
 }
 .sitemap-section:first-child {
