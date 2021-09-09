@@ -327,6 +327,7 @@ nav ul li.lang a::after {
 .sitemap-section {
 	background: #555;
 	margin-top: 3.2vw;
+	padding-top: 3.2vw;
 }
 .sitemap-heading {
 	background: #666;
