@@ -326,7 +326,7 @@ nav ul li.lang a::after {
 }
 .sitemap-section {
 	margin-top: 3vw;
-	padding-top: 3vw;
+	padding-top: 2vw;
 	border-top: 1px solid #6e85ba;
 }
 .sitemap-section:first-child {
@@ -335,7 +335,6 @@ nav ul li.lang a::after {
 	border-top: none;
 }
 .sitemap-heading {
-	background: #666;
 	font-size: 1.6rem;
 	font-weight: 600;
 }
