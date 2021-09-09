@@ -330,6 +330,11 @@ nav ul li.lang a::after {
 	padding-top: 3.2vw;
 	border-top: 1px solid #6e85ba;
 }
+.sitemap-section:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
 .sitemap-heading {
 	background: #666;
 }
