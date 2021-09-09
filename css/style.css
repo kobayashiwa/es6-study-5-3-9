@@ -328,6 +328,7 @@ nav ul li.lang a::after {
 	background: #555;
 	margin-top: 3.2vw;
 	padding-top: 3.2vw;
+	border-top: 1px solid #6e85ba;
 }
 .sitemap-heading {
 	background: #666;
