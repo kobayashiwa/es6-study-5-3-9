@@ -337,6 +337,7 @@ nav ul li.lang a::after {
 .sitemap-heading {
 	font-size: 1.6rem;
 	font-weight: 600;
+	line-height: 1.2;
 }
 .heading-sub {
 	font-size: 0.8rem;
