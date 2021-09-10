@@ -340,6 +340,7 @@ nav ul li.lang a::after {
 }
 .heading-sub {
 	background: #777;
+	font-size: 0.8rem;
 }
 .sitemap-list {
 	background: #888;
