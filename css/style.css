@@ -342,6 +342,7 @@ nav ul li.lang a::after {
 .heading-sub {
 	font-size: 0.6rem;
 	font-weight: 600;
+	letter-spacing: 0.2rem;
 }
 .sitemap-list {
 	background: #888;
