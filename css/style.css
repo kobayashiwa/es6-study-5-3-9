@@ -365,8 +365,9 @@ nav ul li.lang a::after {
 	position: absolute;
 	width: 14px;
 	height: 8px;
-	top: 3px;
+	top: 50%;
 	left: 0px;
+	transform: translate(0, -50%);
 	background-image: url(../img/arrow-white.svg);
 }
 .-sub {
@@ -384,16 +385,6 @@ nav ul li.lang a::after {
 }
 .sitemap-footer ul {
 	background: #515151;
-}
-
-.p-alert_header p {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: inline-block;
-	font-size: 14px;
-	padding-left: 25px;
 }
 
 
