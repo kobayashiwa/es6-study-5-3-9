@@ -353,6 +353,7 @@ nav ul li.lang a::after {
 }
 .-top {
 	margin-top: 1vw;
+	font-size: 0.8rem;
 	background: #505050;
 }
 .-sub {
