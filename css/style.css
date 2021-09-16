@@ -350,6 +350,7 @@ nav ul li.lang a::after {
 .sitemap-list {
 }
 .sitemap-item {
+	font-size: 0.8rem;
 }
 .-top {
 	position: relative;
