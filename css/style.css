@@ -356,7 +356,7 @@ nav ul li.lang a::after {
 	position: relative;
 	margin-top: 1vw;
 	padding-left: 1.6vw;
-	font-size: 0.85rem;
+	font-size: 0.9rem;
 	font-weight: 600;
 }
 .-top::after{
@@ -372,6 +372,7 @@ nav ul li.lang a::after {
 }
 .-sub {
 	margin-top: 1vw;
+	font-size: 0.9rem;
 	background: #808080;
 }
 .sitemap_sublist {
