@@ -352,6 +352,7 @@ nav ul li.lang a::after {
 .sitemap-item {
 	margin: 0.5vw 0 0.5vw 0;
 	font-size: 0.8rem;
+	font-weight: 600;
 }
 .-top {
 	position: relative;
