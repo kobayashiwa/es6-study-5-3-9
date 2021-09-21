@@ -350,13 +350,13 @@ nav ul li.lang a::after {
 .sitemap-list {
 }
 .sitemap-item {
-	margin: 0.5vw 0 0.5vw 0;
+	margin: 1vw 0 0.5vw 1.5vw;
 	font-size: 0.8rem;
 	font-weight: 600;
 }
 .-top {
 	position: relative;
-	margin-top: 1vw;
+	margin: 1vw 0 0 0;
 	padding-left: 1.6vw;
 	font-size: 0.9rem;
 	font-weight: 600;
