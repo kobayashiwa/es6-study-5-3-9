@@ -350,6 +350,7 @@ nav ul li.lang a::after {
 .sitemap-list {
 }
 .sitemap-item {
+	position: relative;
 	margin: 1vw 0 0.5vw 1.5vw;
 	padding-left: 1vw;
 	font-size: 0.8rem;
