@@ -360,6 +360,9 @@ nav ul li.lang a::after {
 	display: inline-block;
 	padding-left: 1.5vw;
 }
+.sitemap-item a.list {
+	background: #222;
+}
 .-top a {
 	position: relative;
 	margin: 1vw 0 0 0;
