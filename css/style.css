@@ -367,6 +367,7 @@ nav ul li.lang a::after {
 	content: "";
 	display: block;
 
+	height: 1px;
 	background: #fff;
 }
 .-top a {
