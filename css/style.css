@@ -368,6 +368,7 @@ nav ul li.lang a::after {
 	display: block;
 	position: absolute;
 	top: 0.7em;
+	left: 0;
 
 	height: 1px;
 	background: #fff;
