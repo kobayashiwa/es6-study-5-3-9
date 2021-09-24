@@ -365,6 +365,8 @@ nav ul li.lang a::after {
 }
 .sitemap-item a.list::before {
 	content: "";
+
+	background: #fff;
 }
 .-top a {
 	position: relative;
