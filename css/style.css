@@ -399,11 +399,11 @@ nav ul li.lang a::after {
 .sitemap_sublist {
 	margin-bottom: 1.5vw;
 	padding-left: 1.5vw;
-	background: #606060;
 }
 .sitemap_subitem a {
 	color: #dce1ec;
-	font-size: 0.7rem;
+	font-size: 0.75rem;
+	font-weight: 400;
 	background: #707070;
 }
 .sitemap-footer {
