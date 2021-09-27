@@ -403,6 +403,7 @@ nav ul li.lang a::after {
 }
 .sitemap_subitem a {
 	color: #dce1ec;
+	font-size: 0.7rem;
 	background: #707070;
 }
 .sitemap-footer {
