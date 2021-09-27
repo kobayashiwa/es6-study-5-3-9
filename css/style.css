@@ -397,6 +397,7 @@ nav ul li.lang a::after {
 	font-weight: 600;
 }
 .sitemap_sublist {
+	margin-bottom: 1.5vw;
 	background: #606060;
 }
 .sitemap_subitem {
