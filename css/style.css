@@ -401,7 +401,8 @@ nav ul li.lang a::after {
 	padding-left: 1.5vw;
 	background: #606060;
 }
-.sitemap_subitem {
+.sitemap_subitem a {
+	color: #dce1ec;
 	background: #707070;
 }
 .sitemap-footer {
