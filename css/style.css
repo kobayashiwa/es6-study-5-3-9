@@ -429,6 +429,7 @@ nav ul li.lang a::after {
 	display: block;
 
 
+	height: 0.7vw;
 	background: #6e85ba;
 }
 
