@@ -424,8 +424,11 @@ nav ul li.lang a::after {
 	font-size: 0.8rem;
 	color: #fff;
 }
-.sitemap-footer ul li a::after {
+.sitemap-footer ul li:nth-child(n + 2)::before {
 	content: "";
+
+
+	background: #6e85ba;
 }
 
 
