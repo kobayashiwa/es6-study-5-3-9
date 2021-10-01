@@ -430,6 +430,7 @@ nav ul li.lang a::after {
 	position: absolute;
 
 
+	width: 1px;
 	height: 0.7vw;
 	background: #6e85ba;
 	line-height: 0;
