@@ -424,6 +424,9 @@ nav ul li.lang a::after {
 	font-size: 0.8rem;
 	color: #fff;
 }
+.sitemap-footer ul li a::after {
+	content: "";
+}
 
 
 
