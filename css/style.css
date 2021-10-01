@@ -420,6 +420,7 @@ nav ul li.lang a::after {
 }
 .sitemap-footer ul li a {
 	display: inline-block;
+	margin: 0 2vw;
 	font-size: 0.8rem;
 	color: #fff;
 }
