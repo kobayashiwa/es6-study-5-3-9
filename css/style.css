@@ -419,6 +419,7 @@ nav ul li.lang a::after {
 	position: relative;
 }
 .sitemap-footer ul li a {
+	display: inline-block;
 	font-size: 0.8rem;
 	color: #fff;
 }
