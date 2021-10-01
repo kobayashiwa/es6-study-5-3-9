@@ -426,6 +426,7 @@ nav ul li.lang a::after {
 }
 .sitemap-footer ul li:nth-child(n + 2)::before {
 	content: "";
+	display: block;
 
 
 	background: #6e85ba;
