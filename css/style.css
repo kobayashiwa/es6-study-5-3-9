@@ -431,6 +431,7 @@ nav ul li.lang a::after {
 
 	height: 0.7vw;
 	background: #6e85ba;
+	line-height: 0;
 }
 
 
