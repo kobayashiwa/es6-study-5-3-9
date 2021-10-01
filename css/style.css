@@ -416,6 +416,7 @@ nav ul li.lang a::after {
 	background: #515151;
 }
 .sitemap-footer ul li {
+	position: relative;
 }
 .sitemap-footer ul li a {
 	font-size: 0.8rem;
