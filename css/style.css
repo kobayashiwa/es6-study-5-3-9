@@ -437,8 +437,8 @@ nav ul li.lang a::after {
 	line-height: 0;
 }
 @media screen and (max-width: 1280px) {
-	.p-alert_header {
-		background: #555;
+	.alert_wrap {
+		height: 55px;
 	}
 }
 
