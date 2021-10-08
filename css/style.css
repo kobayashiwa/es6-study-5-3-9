@@ -58,6 +58,7 @@ ul, li {
 .p-alert_header {
 	position: relative;
 	width: 20%;
+	padding: 0 1rem;
 	background: #6D6D6D;
 }
 .p-alert_header p {
@@ -453,7 +454,7 @@ nav ul li.lang a::after {
 	}
 	.p-alert_body p {
 		left: 32px;
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
 
