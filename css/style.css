@@ -451,6 +451,10 @@ nav ul li.lang a::after {
 		left: 0px;
 		background-size: cover;
 	}
+	.p-alert_body p {
+		left: 32px;
+		font-size: 12px;
+	}
 }
 
 
