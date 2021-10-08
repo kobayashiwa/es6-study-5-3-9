@@ -440,6 +440,9 @@ nav ul li.lang a::after {
 	.alert_wrap {
 		height: 55px;
 	}
+	.p-alert_header p {
+		font-size: 12px;
+	}
 }
 
 
