@@ -464,6 +464,18 @@ nav ul li.lang a::after {
 		top: 50%;
 		left: 30px;
 	}
+	.toggle {
+		top: 55px;
+
+		right: 0;
+		width: 79px;
+		height: 79px;
+		z-index: 3;
+		background: #4A66A9;
+		border: none;
+		appearance: none;
+		cursor: pointer;
+	  }
 }
 
 
