@@ -466,10 +466,10 @@ nav ul li.lang a::after {
 	}
 	.toggle {
 		top: 55px;
+		width: 63px;
+		height: 63px;
 
-		right: 0;
-		width: 79px;
-		height: 79px;
+
 		z-index: 3;
 		background: #4A66A9;
 		border: none;
