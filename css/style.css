@@ -473,6 +473,12 @@ nav ul li.lang a::after {
 		font-size: 10px;
 		bottom: 10px;
 	}
+	.toggle::before, .toggle::after, .toggle span {
+		width: 22px;
+		height: 2px;
+		background: #fff;
+		transition: .2s;
+	}
 }
 
 
