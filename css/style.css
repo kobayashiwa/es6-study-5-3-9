@@ -459,6 +459,11 @@ nav ul li.lang a::after {
 	.top-header {
 		height: 63px;
 	}
+	.head-logo {
+		width: 216px;
+		top: 50%;
+		left: 30px;
+	}
 }
 
 
