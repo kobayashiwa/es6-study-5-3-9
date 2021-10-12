@@ -456,6 +456,9 @@ nav ul li.lang a::after {
 		left: 32px;
 		font-size: 10px;
 	}
+	.top-header {
+		height: 63px;
+	}
 }
 
 
