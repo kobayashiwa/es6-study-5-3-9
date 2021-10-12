@@ -468,14 +468,18 @@ nav ul li.lang a::after {
 		top: 55px;
 		width: 63px;
 		height: 63px;
-
-
-		z-index: 3;
-		background: #4A66A9;
-		border: none;
-		appearance: none;
-		cursor: pointer;
 	  }
+	.toggle p {
+		font-size: 10px;
+
+		
+		font-weight: 500;
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		transition-delay: 1s;
+	}
 }
 
 
