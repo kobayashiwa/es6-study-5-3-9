@@ -464,6 +464,15 @@ nav ul li.lang a::after {
 		top: 50%;
 		left: 30px;
 	}
+	nav ul li {
+		padding: 0 10px;
+	}
+
+
+
+
+
+
 	.toggle {
 		top: 55px;
 		width: 63px;
