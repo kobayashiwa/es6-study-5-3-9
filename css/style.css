@@ -467,6 +467,9 @@ nav ul li.lang a::after {
 	nav ul li {
 		padding: 0 10px;
 	}
+	nav ul li a {
+		font-size: 11px;
+	}
 
 
 
