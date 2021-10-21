@@ -494,10 +494,6 @@ nav ul li.lang a::after {
 
 
 	.toggle::before {
-
-
-
-		transition-delay: 0s;
 	}
 	.toggle::after {
 		top: 16px;
@@ -513,12 +509,10 @@ nav ul li.lang a::after {
 		transition-delay: .5s;
 	}
 	.toggle span:nth-of-type(1) {
-		top: 16px;
-	
+		top: 16px;	
 	}
 	.toggle span:nth-of-type(2) {
-		top: 28px;
-	
+		top: 24px;	
 	}
 	.toggle span:nth-of-type(3) {
 		top: 36px;
