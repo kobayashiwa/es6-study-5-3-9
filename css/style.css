@@ -489,18 +489,18 @@ nav ul li.lang a::after {
 		background: #fff;
 		transition: .2s;
 	}
-
-
-
-
 	.toggle::before {
 		left: 25px;
 	}
 	.toggle::after {
 		right: 25px;
-
-		transition-delay: .2s;
 	}
+
+
+
+
+	
+	
 	.toggle span:nth-of-type(-n+3) {
 		left: 21px;
 
