@@ -496,8 +496,6 @@ nav ul li.lang a::after {
 	.toggle::before {
 	}
 	.toggle::after {
-		top: 16px;
-		right: 30px;
 		transform-origin: 100% 0;
 		transform: rotate(-45deg) scaleX(0);
 		transition-delay: .2s;
@@ -515,7 +513,7 @@ nav ul li.lang a::after {
 		top: 24px;	
 	}
 	.toggle span:nth-of-type(3) {
-		top: 36px;
+		top: 32px;
 	}
 	.toggle.active::before {
 		transform: rotate(45deg) scaleX(1);
