@@ -507,16 +507,6 @@ nav ul li.lang a::after {
 	.toggle span:nth-of-type(3) {
 		top: 32px;
 	}
-
-
-
-
-	.toggle.active span:nth-of-type(2) {
-		transition-delay: .25s;
-	}
-	.toggle.active span:nth-of-type(3) {
-		transition-delay: .4s;
-	}
 }
 
 
