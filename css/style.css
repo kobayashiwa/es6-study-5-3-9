@@ -474,12 +474,6 @@ nav ul li.lang a::after {
 	nav ul li.sub a {
 		padding: 24px 0 0 24px;
 	}
-
-
-
-
-
-
 	.toggle {
 		top: 55px;
 		width: 63px;
@@ -494,6 +488,60 @@ nav ul li.lang a::after {
 		height: 2px;
 		background: #fff;
 		transition: .2s;
+	}
+
+
+
+
+	.toggle::before {
+
+		transform-origin: 0 0;
+		transform: rotate(45deg) scaleX(0);
+		transition-delay: 0s;
+	}
+	.toggle::after {
+		top: 16px;
+		right: 30px;
+		transform-origin: 100% 0;
+		transform: rotate(-45deg) scaleX(0);
+		transition-delay: .2s;
+	}
+	.toggle span:nth-of-type(-n+3) {
+		left: 21px;
+		
+		transform-origin: 100% 0;
+		transition-delay: .5s;
+	}
+	.toggle span:nth-of-type(1) {
+		top: 20px;
+	
+	}
+	.toggle span:nth-of-type(2) {
+		top: 28px;
+	
+	}
+	.toggle span:nth-of-type(3) {
+		top: 36px;
+	}
+	.toggle.active::before {
+		transform: rotate(45deg) scaleX(1);
+		transition-delay: .6s;
+	}
+	.toggle.active::after {
+		transform: rotate(-45deg) scaleX(1);
+		transition-delay: .8s;
+	}
+	.toggle.active span:nth-of-type(-n+3) {
+		transform: scaleX(0);
+	}
+	.toggle.active span:nth-of-type(1) {
+		transition-delay: .1s;
+	}
+	.toggle.active span:nth-of-type(2) {
+		transition-delay: .25s;
+	}
+	.toggle.active span:nth-of-type(3) {
+		transition-delay: .4s;
 	}
 }
 
