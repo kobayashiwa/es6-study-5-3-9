@@ -519,47 +519,41 @@ nav ul li.lang a::after {
 		display: none;
 	}	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {	
-
-	.head-logo {
-		top: 40px;
-	}
-	.toggle {
-		position: fixed;
-		top: 42px;
-		right: 28px;
+@media screen and (max-width: 767px) {
+	.alert_wrap {
+		flex-direction: column;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** main **/
 main {
 	width: 100%;
