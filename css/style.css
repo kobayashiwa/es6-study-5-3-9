@@ -525,7 +525,8 @@ nav ul li.lang a::after {
 	}
 	.p-alert_header {
 		width: 100%;
-		padding: 0 1rem;
+
+		padding: 1rem;
 	}
 }
 
