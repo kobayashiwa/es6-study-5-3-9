@@ -514,6 +514,11 @@ nav ul li.lang a::after {
 		width: 50%;
 	}
 }
+@media screen and (max-width: 1124px) {
+	.top-header nav {
+		display: none;
+	}	
+}
 
 
 
@@ -545,9 +550,7 @@ nav ul li.lang a::after {
 
 
 @media screen and (max-width: 600px) {	
-	.in {
-		padding: 0 28px;
-	}
+
 	.head-logo {
 		top: 40px;
 	}
