@@ -522,6 +522,7 @@ nav ul li.lang a::after {
 @media screen and (max-width: 767px) {
 	.alert_wrap {
 		flex-direction: column;
+		height: 125px;
 	}
 	.p-alert_header {
 		width: 100%;
