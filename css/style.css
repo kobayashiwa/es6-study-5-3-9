@@ -523,6 +523,10 @@ nav ul li.lang a::after {
 	.alert_wrap {
 		flex-direction: column;
 	}
+	.p-alert_header {
+		width: 100%;
+		padding: 0 1rem;
+	}
 }
 
 
