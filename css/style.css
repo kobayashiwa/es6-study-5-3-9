@@ -526,12 +526,12 @@ nav ul li.lang a::after {
 	}
 	.p-alert_header {
 		width: 100%;
-
 		padding: 1rem;
 	}
+	.p-alert_body {
+		width: 100%;
+	}
 }
-
-
 
 
 
