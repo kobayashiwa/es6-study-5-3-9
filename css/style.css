@@ -521,21 +521,7 @@ nav ul li.lang a::after {
 }
 @media screen and (max-width: 767px) {
 	.alert_wrap {
-		flex-direction: column;
-		height: 125px;
-	}
-	.p-alert_header {
-		width: 100%;
-		padding: 1rem;
-	}
-	.p-alert_body {
-		width: 100%;
-	}
-	.p-alert_body p {
-		left: 1.5rem;
-		padding: 1rem;
-		font-size: 14px;
-		line-height: 1.2;
+		display: none;
 	}
 }
 
