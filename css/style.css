@@ -531,6 +531,9 @@ nav ul li.lang a::after {
 	.p-alert_body {
 		width: 100%;
 	}
+	.p-alert_body p {
+		left: 1.5rem;
+	}
 }
 
 
