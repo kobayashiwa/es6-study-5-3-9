@@ -523,6 +523,11 @@ nav ul li.lang a::after {
 	.alert_wrap {
 		display: none;
 	}
+	nav {
+		position: absolute;
+		top: 64px;
+		left: 1rem;
+	}
 	.toggle {
 		top: 0;
 	  }
