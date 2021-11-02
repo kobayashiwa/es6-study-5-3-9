@@ -527,10 +527,14 @@ nav ul li.lang a::after {
 		position: absolute;
 		top: 64px;
 		left: 1rem;
+		padding-right: 0;
 	}
 	.toggle {
 		top: 0;
 	  }
+	  .sitemap-col {
+		width: 100%;
+	}
 }
 
 
