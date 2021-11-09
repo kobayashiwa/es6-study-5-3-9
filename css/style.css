@@ -532,9 +532,13 @@ nav ul li.lang a::after {
 	.toggle {
 		top: 0;
 	  }
+	  .sitemap-body {
+		padding-top: 160px;
+	}
 	  .sitemap-col {
 		width: 100%;
 	}
+	
 }
 
 
