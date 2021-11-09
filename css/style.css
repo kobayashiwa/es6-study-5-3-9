@@ -538,7 +538,10 @@ nav ul li.lang a::after {
 	  .sitemap-col {
 		width: 100%;
 	}
-	
+	.sitemap-section {
+		margin-top: 10vw;
+		padding-top: 8vw;
+	}
 }
 
 
