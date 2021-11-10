@@ -551,6 +551,10 @@ nav ul li.lang a::after {
 		padding-left: 6vw;
 		font-size: 1rem;
 	}
+	.sitemap_subitem {
+		padding: 2vw 0;
+		font-size: 1rem;
+	}
 }
 
 
