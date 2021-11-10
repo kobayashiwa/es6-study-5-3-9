@@ -518,6 +518,9 @@ nav ul li.lang a::after {
 	.top-header nav {
 		display: none;
 	}	
+	.-top a {
+		padding-left: 2.5vw;
+	}
 }
 @media screen and (max-width: 767px) {
 	.alert_wrap {
@@ -548,7 +551,7 @@ nav ul li.lang a::after {
 	}
 	.sitemap-item {
 		margin: 2vw 0 0.5vw 0;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight: 300;
 	}
 	.-top a {
