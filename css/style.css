@@ -542,6 +542,10 @@ nav ul li.lang a::after {
 		margin-top: 10vw;
 		padding-top: 8vw;
 	}
+	.sitemap-section:first-child {
+		margin-top: 3vw;
+		padding-top: 2vw;
+	}
 	.sitemap-item {
 		margin: 2vw 0 0.5vw 0;
 		font-size: 1.5rem;
